@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Order Now - App</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-auto">
+            <h1>My Order Now</h1>
+          </div>
+          <div class="col-auto">
+            <div
+              class="avatar-container"
+              data-target="#profileOptions"
+              data-toggle="modal"
+            >
+              <img
+                src="img/pexels-good-free-photoscom-1421837.jpg"
+                alt="Fondo"
+              />
+              <i class="fas fa-cog"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="profileOptions"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Opciones</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <ul class="profile-options-list">
+                <li>
+                  <a href="#">
+                    <i class="fas fa-user"></i>
+                    Mi perfil
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Mis direcciones
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-credit-card"></i>
+                    Mis tarjetas
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-danger">
+                    <i class="fas fa-times-circle"></i>
+                    Cerrar sesión
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="js/jquery.js"></script>
+    <script src="js/poper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
